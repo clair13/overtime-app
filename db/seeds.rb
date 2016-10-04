@@ -17,7 +17,7 @@ AdminUser.create(email: "admin@test.com",
 puts "1 Admin User created"
 
 100.times do |post|
-    Post.create!(date: Date.today, rationale: "#{post} rationale content", user_id: @user.id, overtime_request: 2.5)
+    Post.create!(date: Date.today, rationale: "#{post} rationale content Kinfolk gentrify you probably haven't heard of them try-hard, swag lo-fi lyft biodiesel cold-pressed. Everyday carry tattooed listicle blue bottle, sartorial post-ironic hot chicken lomo cornhole shoreditch DIY. Put a bird on it neutra taxidermy tumblr. Drinking vinegar literally humblebrag, edison bulb XOXO celiac biodiesel pour-over beard. Irony sartorial biodiesel 8-bit, PBR&B poutine small batch flexitarian +1 pitchfork tote bag mumblecore. Neutra marfa lo-fi, iceland jianbing hashtag venmo vape vinyl poke polaroid taxidermy.", user_id: @user.id, overtime_request: 2.5)
 end
 
 puts "100 Posts have been created"
